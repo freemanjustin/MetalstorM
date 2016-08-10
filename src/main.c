@@ -1,9 +1,11 @@
 #include "MetalstorM.h"
 
-int main int main(int argc,char **argv)
+int main(int argc,char **argv)
 {
   // Everything
   e *E;
+
+  E = malloc(sizeof(e));
 
   initialize(E);
   run(E);

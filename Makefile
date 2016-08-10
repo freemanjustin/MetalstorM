@@ -17,7 +17,8 @@ INC=	-I./include
 LFLAGS=  \
 	-lnetcdf
 
-COBJ=	$(CSRC)main.o
+COBJ=	$(CSRC)initialize.o \
+	$(CSRC)main.o
 
 OBJ=	$(COBJ) 
 
